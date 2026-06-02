@@ -117,7 +117,7 @@ Al intentar hacer merge Git no sabrá con qué versión quedarse, lo que genera 
 ### Origin y Local
 Como GitHub almacena código en la nube, existe una diferencia entre lo que hay online (origin) y lo que tenemos en nuestra computadora (local).
 
-Por esto, cuando hacemos un commit en nuestra computadora (local), debemos hacer **push** para que el cambio se reflejé online (origin). De la misma manera, si tenemos cambios de alguien más en origin, debemos utilizar **pull** para traerlos a local.
+Por esto, cuando hacemos un commit en nuestra computadora (local), debemos hacer **push** para que el cambio se refleje online (origin). De la misma manera, si tenemos cambios de alguien más en origin, debemos utilizar **pull** para traerlos a local.
 
 ### Organización en Git
 Cuando se hacen proyectos de a varias personas, existen varias formas de organizarse, algunas más "formales" que otras
@@ -264,7 +264,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class MLectorDeArchivos {
+public class LectorDeArchivos {
     public static void main(String[] args) {
         String nombreArchivo = "ejemplo.txt";
         try (BufferedReader lector = new BufferedReader(new FileReader(nombreArchivo))) {
