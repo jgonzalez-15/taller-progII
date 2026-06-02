@@ -134,7 +134,7 @@ Por ejemplo, supongamos que queremos una variable color que pueda ser azul, rojo
 
 En lugar de esto podemos crear un Enum, en este podemos definir las variables (azul, rojo, amarrilo) y dejar que java se encarga de guardarlo e interpretarlo como quiera (en general es similar al ejemplo anterior). Este ejemplo se vería de la siguiente manera:
 ```java
-public enum Color(){
+public enum Color {
   ROJO,
   AZUL,
   AMARILLO
@@ -142,7 +142,7 @@ public enum Color(){
 ```
 Luego podemos acceder a él mediante Color.*color* o incluso agregarlo a una clase:
 ```java
-public class Auto(){
+public class Auto {
   String marca;
   Sting modelo;
   Color color;
@@ -161,7 +161,7 @@ Auto auto1 = new Auto("Renault", "Swift", Color.ROJO);
 Existen algoritmos y TADs que necesitan comparar objetos, por ejemplo un heap.
 Sin embargo, cuando tenemos un objeto complejo java no sabe cuál es mayor y cuál menor, por ejemplo supongamos una persona:
 ```java
-public class Persona() {
+public class Persona {
   String nombre;
   int edad;
   int altura;
