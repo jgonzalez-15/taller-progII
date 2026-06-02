@@ -36,7 +36,7 @@ La forma de crear una nueva versión en git es mediante un commit, esto es en de
 En el ejemplo anterior, cuando agregamos las líneas nuevas, debimos haber hecho un commit para que git genere la segunda versión.
 
 ### Branches
-Para organizar el trabajo y no editar el mismo código, git permite el uso de branches (ramas). Estas son "versiones paralelas" del mismo código, por ejemplo, supongamos que partimos del código anterior:
+Para organizar el trabajo y no editar el mismo código, git permite el uso de branches (ramas). Estas son "versiones paralelas" del mismo código, por ejemplo, mos que partimos del código anterior:
 
 ```java
 //Rama 1
@@ -166,7 +166,7 @@ public class Persona {
   int edad;
   int altura;
 
-  //SUpongamos que tiene constructor
+  //Supongamos que tiene constructor
 }
 
 Persona ana = new Persona("Ana", 20, 172);
